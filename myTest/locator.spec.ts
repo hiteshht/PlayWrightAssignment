@@ -41,6 +41,6 @@ test("locator", async ({ page }) => {
         console.log("Search check", await search.isEnabled());
     }
     catch (err) {
-        console.log("there is an error", err);
+        console.error("there is an error", err);
     }
 })
