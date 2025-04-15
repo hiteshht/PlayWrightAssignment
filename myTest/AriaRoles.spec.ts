@@ -26,7 +26,7 @@ test("ARIA Roles", async ({ browser }) => {
 
     }
     catch (err) {
-        console.log("an error occured :", err);
+        console.error("an error occured :", err);
     }
 
 })

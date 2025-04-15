@@ -13,8 +13,8 @@ test("No-Incognito", async ({ browserName }) => {
 
         await page.goto(" https://www.saucedemo.com ");
 
-        await page.locator("id=user-name").fill("Hitesh");
-        await page.locator("id=password").fill("Talesra");
+        await page.locator("id=name").fill("Hitesh");
+        await page.locator("id=input-lastname").fill("Talesra");
 
         const cookieData = await browser.cookies();
 
