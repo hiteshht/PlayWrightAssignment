@@ -38,6 +38,7 @@ test('dropdown selection test', async ({ browser }) => {
         const item = dropdownExample.locator('.dropdown-menu .dropdown-item', { hasText: "Action" }).first();
         await item.click();
 
+
     }
 
     catch (err) {
